@@ -1,0 +1,44 @@
+
+.box {
+  width: 330px;
+  height: 150px;
+  margin: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  float: left;
+  border-radius: 7px;
+  background-color: #add8e6; /* For browsers that do not support gradients */
+  background: linear-gradient(#add8e6 25% 35%, #ffc0cb 25% 70%, #add8e6 25% 100% );
+}
+
+.image-frame {
+  height: 100px;
+  width: 100px;
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-wrapper {
+  height: 80px;
+  width: 80px;
+  background-color: #eee;
+}
+
+.info-frame {
+  height: 110px;
+  width: 170px;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  flex-direction: column;
+}
+
+.img-box {
+  width:100%;
+}
